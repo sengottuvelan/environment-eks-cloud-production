@@ -18,7 +18,7 @@ pipeline {
         }
       }
     }
-    stage('Update Environment') {
+    stage('Update Environment of jenkins') {
       when {
         branch 'master'
       }
