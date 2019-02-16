@@ -9,7 +9,7 @@ pipeline {
     DEPLOY_NAMESPACE = "jx-production"
   }
   stages {
-    stage('Validate Environment') {
+    stage('Validate Jenkins Environment') {
       steps {
         container('maven') {
           dir('env') {
