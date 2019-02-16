@@ -3,7 +3,7 @@ pipeline {
     disableConcurrentBuilds()
   }
   agent {
-    label "jenkins-maven"
+    label "jenkins-maven fir jx"
   }
   environment {
     DEPLOY_NAMESPACE = "jx-production"
